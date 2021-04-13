@@ -35,6 +35,7 @@ h1 {
     margin-bottom: 2px;
 }
 .menu li:hover .submenu{
+    display: inline-block;
     visibility: visible;
     opacity: 1;
 }
@@ -54,7 +55,7 @@ menu > li {
 }
 
 .menu > li > a {
-    display: block;
+    display: inline-block;
     padding: 15px 20px;
     color: #d8c3c3;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -63,7 +64,7 @@ menu > li {
 
 .menu > li > a:hover {
     color: blanchedalmond;
-    background-color: rgba(92, 160, 78, 0.308);
+    background-color: rgba(92, 160, 78, 0.158);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     color:rgb(110, 202, 52);
@@ -77,21 +78,25 @@ menu > li {
 }
 
 .submenu {
-    width: 56px;
+    margin: 0 -20% ;
+    padding: 12px;
+    opacity: 1;
+    top:100%;
+    width: auto;
     visibility: hidden;
+    line-height: 2em;
 }
 
 .submenu li a {
     line-height: 25px;
-    margin: 0px;
-    padding: 10%;
     color: blanchedalmond;
     text-decoration: none;
 }
 
 .menu > li:hover > .submenu {
-    padding: 6%;
-    margin: 0;
+    width: 20%;
+    padding: 4%;
+    margin-left: -27%;
     visibility: visible;
     opacity: 1;
     color: blanchedalmond;
@@ -108,6 +113,7 @@ menu > li {
     align-items: center;
     justify-content: left;
     line-height: 20px;
+    text-align: center;
 }
 
 .foto {
