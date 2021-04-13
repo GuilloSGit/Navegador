@@ -72,32 +72,26 @@ menu > li {
 .submenu {
     color:blanchedalmond;
     position: absolute;
-    background: rgba(92, 160, 78, 0.308);;
+    background: rgb(21, 63, 13);;
     visibility: hidden;
-    opacity: 0;
+    opacity: 1;
     transition: opacity 1s;
 }
 
 .submenu li a {
+    margin: 0;
+    padding: 10%;
     color: blanchedalmond;
     text-decoration: none;
-    width: 100%;
-    margin: 10%;
-    padding: 1%;
-}
-.submenu > li {
-    display: block;
-    font-family: 'Courier New', Courier, monospace;
-    text-decoration: none;
-    font-weight: 500;
 }
 
 .menu > li:hover > .submenu {
-    margin-left: 11%;
+    padding: 6%;
+    margin: 0 10% 10% 10%;
     visibility: visible;
     opacity: 1;
     color: blanchedalmond;
-    background-color: rgba(92, 160, 78, 0.308);
+    background-color: rgba(20, 87, 6, 0.774);
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     color:rgb(110, 202, 52);
