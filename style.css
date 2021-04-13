@@ -23,6 +23,7 @@ h1 {
 }
 
 .navegacion {
+    padding: 1px;
     position: relative;
     width: 100%;
     max-width: 1000px;
@@ -32,6 +33,14 @@ h1 {
     height: 50px;
     margin-top: 5px;
     margin-bottom: 2px;
+}
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+.submenu li:hover {
+    background-color: rgba(17, 172, 94, 0.267);
 }
 
 .navegacion ul {
@@ -68,9 +77,8 @@ menu > li {
 }
 
 .submenu {
-    width: 15%;
+    width: 56px;
     visibility: hidden;
-    opacity: 1;
 }
 
 .submenu li a {
@@ -90,8 +98,8 @@ menu > li {
     background-color: rgba(20, 87, 6, 0.774);
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    color:rgb(110, 202, 52);
-    transition: all .9s;
+    color:rgb(58, 109, 27);
+    transition: all .5s;
 }
 
 .navegacion > ul {
