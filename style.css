@@ -26,8 +26,6 @@ h1 {
     position: relative;
     width: 100%;
     max-width: 1000px;
-    margin: 5% auto;
-    background:rgb(192, 7, 7);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-color: rgba(17, 172, 94, 0.267);
@@ -70,16 +68,14 @@ menu > li {
 }
 
 .submenu {
-    color:blanchedalmond;
-    position: absolute;
-    background: rgb(21, 63, 13);;
+    width: 15%;
     visibility: hidden;
     opacity: 1;
-    transition: opacity 1s;
 }
 
 .submenu li a {
-    margin: 0;
+    line-height: 25px;
+    margin: 0px;
     padding: 10%;
     color: blanchedalmond;
     text-decoration: none;
@@ -87,7 +83,7 @@ menu > li {
 
 .menu > li:hover > .submenu {
     padding: 6%;
-    margin: 0 10% 10% 10%;
+    margin: 0;
     visibility: visible;
     opacity: 1;
     color: blanchedalmond;
@@ -95,7 +91,7 @@ menu > li {
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     color:rgb(110, 202, 52);
-    transition: all .3s;
+    transition: all .9s;
 }
 
 .navegacion > ul {
@@ -103,6 +99,7 @@ menu > li {
     flex-direction: row;
     align-items: center;
     justify-content: left;
+    line-height: 20px;
 }
 
 .foto {
@@ -114,7 +111,7 @@ menu > li {
     height: 500px;
     float:left;
     background-color: rgb(147, 212, 85);
-    margin-top: 10px;
+    margin-top: 7px;
     margin-right: 10px;
     margin-bottom: 10px;
 }
@@ -132,7 +129,7 @@ menu > li {
     width: 270px;
     height: 500px;
     background-color: darkred;
-    margin-top: 10px;
+    margin-top: 7px;
     float: right;
 }
 
@@ -143,7 +140,7 @@ menu > li {
 .footer {
     margin-bottom: auto;
     clear: both;
-    line-height: 50px;
+    line-height: 80px;
     background-color: darkslategray;
     text-align: center;
     border-bottom-left-radius: 20px;
